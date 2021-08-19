@@ -1,0 +1,51 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.contact__title {
+    max-width: 350px;
+}
+.contact .about__h--line {
+    width: 60vw;
+    max-width: 534px;
+}
+
+
+
+
+
+// media query styling
+
+@media only screen and (max-width: 1100px) {
+    .contact .about__h--line {
+        width: 40vw;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .contact {
+        margin-bottom: 96px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .contact .about__h--line {
+        width: 30vw;
+    }
+}
+@media only screen and (max-width: 820px) {
+    .contact .about__h--line {
+        width: 20vw;
+    }
+}
+@media only screen and (max-width: 740px) {
+    .contact {
+        margin-bottom: 80px;
+        flex-direction: column;
+    }
+    .contact__title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}

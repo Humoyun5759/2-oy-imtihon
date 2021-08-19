@@ -1,0 +1,65 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Arial', 'sans-serif';
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+h1, h2 {
+	font-family: var(--ibbara);
+	color: var(--dark);
+	font-weight: 700;
+}
+h1 {
+	font-size: 50px;
+	line-height: 50px;
+}
+h2 {
+	font-size: 40px;
+	line-height: 42px;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}

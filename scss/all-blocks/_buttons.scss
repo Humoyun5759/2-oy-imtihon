@@ -1,0 +1,72 @@
+// hero section buttons
+
+.hero__btn {
+    width: 200px;
+    height: 48px;
+    background: #203a4c;
+    border: none;
+    cursor: pointer;
+}
+.hero__btn a {
+    text-decoration: none;
+    display: flex;
+}
+.hero__btn__logo {
+    width: 48px;
+    height: 48px;
+    background: #192f3f;
+    mix-blend-mode: normal;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero__btn__text {
+    width: 152px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero__btn__text p {
+    color: #fff;
+    font-family: var(--public);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.hero__btn:hover {
+    background: var(--green);
+}
+.hero__btn:hover .hero__btn__logo {
+    background: #438d7d;
+}
+.hero__btn:hover .hero__btn__logo svg path {
+    stroke: #fff;
+}
+
+// about section buttons
+
+.about__btn {
+    border: 1px solid var(--dark);
+    background: #fff;
+    height: 48px;
+}
+.about__btn a {
+    padding: 17px 35px;
+    color: var(--dark);
+    font-family: var(--public);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.about__btn:hover {
+    background: var(--dark);
+}
+.about__btn:hover a {
+    color: #fff;
+}

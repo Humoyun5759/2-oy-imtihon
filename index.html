@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./css/main.min.css" />
+	<link rel="shortcut icon" href="./images/header-logo.png">
+	<title>Document</title>
+</head>
+
+<body>
+
+	<!-- Start of header -->
+
+	<header class="header">
+		<div class="container">
+			<a class="header__logo" href="#">
+				<img srcset="./images/header-logo.png 1x, ./images/header-logo@2x.png 2x" alt="header logo" width="60.08" height="32">
+			</a>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#" class="active">home</a>
+					</li>
+					<li class="nav__item">
+						<a href="partfolio.html">portfolio</a>
+					</li>
+					<li class="nav__item">
+						<a href="contact-me.html">contact me</a>
+					</li>
+				</ul>
+			</nav>
+			<button class="hamburger">
+				<img class="hamburger__menu" src="./images/menu-btn.png" alt="menu open btn" width="24" height="13">
+				<img class="hamburger__exit" src="./images/menu-exit.png" alt="menu exit btn" width="17.68"
+					height="17.68">
+			</button>
+		</div>
+	</header>
+
+	<!-- End of header -->
+
+
+
+
+	<!-- Start of main -->
+
+	<main class="main">
+		<div class="container">
+
+			<!-- Start of hero section -->
+
+			<section class="hero">
+				<picture>
+					<source
+						media="(max-width: 1024px)"
+						srcset="
+							./images/home-hero.jpg 1x,
+							./images/home-hero@2x.jpg 2x
+						"
+					/>
+					<img srcset="./images/home-hero-desktop.jpg 1x, ./images/home-hero-desktop@2x.jpg 2x" alt="home hero image">
+				</picture>
+				<div class="hero__box">
+					<h1 class="hero__heading">Hey, I’m Alex Spencer and I love building beautiful websites</h1>
+					<button class="hero__btn">
+						<a href="#">
+							<div class="hero__btn__logo">
+								<svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1 9L9 13L17 9" stroke="#5FB4A2"/>
+									<path opacity="0.5" d="M1 5L9 9L17 5" stroke="#5FB4A2"/>
+									<path opacity="0.25" d="M1 1L9 5L17 1" stroke="#5FB4A2"/>
+								</svg>
+							</div>
+							<div class="hero__btn__text">
+								<p>about me</p>
+							</div>
+						</a>
+					</button>
+				</div>
+			</section>
+
+			<!-- End of hero section -->
+
+
+
+			<!-- Start of about section -->
+
+			<section class="about">
+				<div class="about__left">
+					<picture>
+						<source
+							type="image/webp"
+							media="(min-width: 740px) and (max-width: 1024px)"
+							srcset="./images/about-me-img-tablet.webp 1x,
+									./images/about-me-img-tablet@2x.webp 2x
+							"
+						/>
+						<source
+							type="image/webp"
+							srcset="./images/about-me-img.webp 1x,
+									./images/about-me-img@2x.webp 2x
+							"
+						/>
+						<source
+							media="(min-width: 740px) and (max-width: 1024px)"
+							srcset="./images/about-me-img-tablet.jpg 1x,
+									./images/about-me-img-tablet@2x.jpg 2x
+							"
+						/>
+						<source
+							srcset="./images/about-me-img.jpg 1x,
+									./images/about-me-img@2x.jpg 2x
+							"
+						/>
+						<img src="./images/about-me-img.jpg" alt="about me image">
+					</picture>
+				</div>
+				<div class="about__right">
+					<div class="about__h--line"></div>
+					<h2 class="about__heading">About Me</h2>
+					<p class="about__desc">I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, run or cycling. I’d love you to check out my work.</p>
+					<button class="about__btn">
+						<a href="#">go to portfolio</a>
+					</button>
+					<div class="about__h--line"></div>
+				</div>
+			</section>
+
+			<!-- End of about section -->
+
+
+
+
+			<!-- Start of contact section -->
+
+			<section class="contact">
+				<div class="contact__title">
+					<h2 class="contact__heading">Interested in doing a project together?</h2>
+				</div>
+				<div class="about__h--line"></div>
+				<button class="about__btn">
+					<a href="#">contact me</a>
+				</button>
+			</section>
+
+			<!-- End of contact section -->
+
+		</div>
+	</main>
+
+	<!-- End of main -->
+
+
+
+
+	<!-- Start of footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="footer__logo">
+						<a href="#">
+							<img srcset="./images/footer-logo.png 1x, ./images/footer-logo@2x.png 2x" alt="footer logo" width="60.08" height="32">
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="#">home</a>
+					</li>
+					<li class="nav__item">
+						<a href="partfolio.html">portfolio</a>
+					</li>
+					<li class="nav__item">
+						<a href="contact-me.html">contact me</a>
+					</li>
+				</ul>
+			</nav>
+			<ul class="footer__links__list">
+				<li class="links__item">
+					<a href="#">
+						<img src="./images/git-hub-icon-img.png" alt="git hub link icon" width="25" height="24">
+					</a>
+				</li>
+				<li class="links__item">
+					<a href="#">
+						<img src="./images/twitter-icon-img.png" alt="twitter link icon" width="24" height="19.5">
+					</a>
+				</li>
+				<li class="links__item">
+					<a href="#">
+						<img src="./images/in-icon-img.png" alt="independet network link icon" width="24" height="24">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- End of footer -->
+
+
+
+
+	<!-- custom js file link -->
+
+	<script src="./js/script.js"></script>
+
+</body>
+
+</html>
